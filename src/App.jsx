@@ -1,25 +1,24 @@
 import React from 'react'
 import Header from './Components/Header/Header'
-// import About from './component/about/About'
-// import Hero from './component/hero/Hero'
-// import Product from './component/product/Product'
-// import Comment from './component/comment/Comment'
-// import News from './component/news/News'
-// import Footer from './component/footer/Footer'
-// import Offer from './component/offer/Offer'
-
+import About from './Components/About/About'
+import Hero from './Components/Hero/Hero'
+import Product from './Components/Product/Product'
+import Comment from './Components/Comment/Comment'
+import News from './Components/News/News'
+import Footer from './Components/Footer/Footer'
+import Offer from './Components/Offer/Offer'
 const App = () => {
 
   return (
    <>
    <Header/>
-   {/* <Hero/>
+   <Hero/>
    <About/>
    <Product/>
    <Comment/>
    <Offer/>
    <News/>
-   <Footer/> */}
+   <Footer/>
    </>
   )
 }
