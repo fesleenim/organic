@@ -1,0 +1,117 @@
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+
+    .card_left {
+        width: 30%;
+        text-align: end;
+        position:   relative;
+        &::after{
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 100%;
+            background-color: gray;
+            top: 0;
+            right:-20px ;
+        }
+        .card_h1 {
+            font-family: 'Roboto';
+            font-size: 36px;
+            font-weight: 700;
+            color: #274b5c;
+        }
+
+        .card_item {
+            margin-top: 30px;
+
+            .card_h2 {
+                font-family: 'Roboto';
+                font-size: 26px;
+                font-weight: 500;
+                color: #274b5c;
+            }
+            .card_p {
+                font-family: 'Roboto';
+                font-size: 18px;
+                font-weight: 400;
+                color: #274b5c;
+            }
+        }
+    }
+    .card_main{
+        text-align: center;
+        width: 40%;
+        margin-left: 40px;
+        margin-right: 40px;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            width: 1.4px;
+            height: 100%;
+            background-color: gray;
+            top: 0;
+            right:-10px ;
+        }
+        .card_p {
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 400;
+            color: #274b5c;
+            line-height: 29px;
+            margin-top: 50px;
+        }
+        .card_btm{
+           margin: 0 auto;
+           .icon1{
+            background-color: #EFF6F1;
+            border-radius: 50%;
+            padding: 10px;
+            margin-top: 40px;
+           }
+           .icon{
+            background-color: #EFF6F1;
+            border-radius: 50%;
+            padding: 10px;
+            margin-left: 20px;
+            margin-top: 40px;
+           }
+        }
+    }
+    .card_right{
+        text-align: left;
+        .card_h1 {
+            font-family: 'Roboto';
+            font-size: 36px;
+            font-weight: 700;
+            color: #274b5c;
+        }
+        .card_p {
+            font-family: 'Roboto';
+            font-size: 20px;
+            font-weight: 400;
+            color: #274b5c;
+            line-height: 49px;
+        }
+    }
+}
+.section_footer{
+    margin-top: 70px;
+    width: 100%;
+    .hr{
+        width: 99.9%;
+        background-color: #EFF6F1;
+    }
+    .card_p {
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: 400;
+        color: #274b5c;
+        line-height: 49px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
