@@ -1,0 +1,94 @@
+.box_topp {
+    margin-top: 30px;
+    text-align: center;
+
+    .card_rightp {
+        font-family: 'Yellowtail';
+        font-size: 36px;
+        margin-top: 100px;
+        color: #7EB693;
+        display: block;
+    }
+
+    .card_righth1 {
+        font-family: 'Roboto';
+        font-size: 46px;
+        font-weight: 700;
+        color: #274b5c;
+        margin-bottom: 10px;
+    }
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+    .box_item {
+        width: 21%;
+        background-color: #ffffff;
+        border-radius: 30px;
+        padding: 20px;
+        border: #F9F8F8 solid 3px;
+        margin-top: 20px;
+        .box_img{
+            height: 300px;
+        }
+        .box_item_top {
+            width: 25%;
+            text-align: center;
+            border-radius: 10px;
+            font-family: 'Roboto';
+            font-size: 16px;
+            padding: 8px;
+            background-color: #274b5c;
+            color: white
+        }
+
+        .box_p {
+            font-family: 'Roboto';
+            font-size: 26px;
+            font-weight: 700;
+            color: #274b5c;
+            margin-bottom: 10px;
+        }
+
+        .box_hr {
+            background-color: #DEDDDD;
+            width: 100%;
+            margin-top: 25px;
+        }
+
+        .box_bottom {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .box_bottom_left {
+                width: 30%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .box_bottom_p {
+                    font-family: 'Roboto';
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #9f9f9f;
+                }
+                .box_bottom_strong {
+                    font-family: 'Roboto';
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: #274b5c;
+                    margin-left: 10px;
+                }
+            }
+            .box_start{
+                color: hsl(29, 100%, 67%);
+            }
+        }
+    }
+}

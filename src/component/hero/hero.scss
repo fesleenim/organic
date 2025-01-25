@@ -1,0 +1,61 @@
+.section{
+    width: 100%;
+    background-image: url(../../assets/BackgroundPatterns.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    background-color: rgb(241 , 239 , 240);
+    .hero_card{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .hero_card_left{
+            width: 29%;
+            .card_p{
+                font-family: 'Yellowtail';
+                font-size: 36px;
+                color: #68A47F;
+            }
+            .card_h1{
+                font-family: 'Roboto';
+                font-size: 50px;
+                font-weight: 700;
+                color: #274C5B;
+            }
+            .card_button{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-family: 'Roboto';
+                font-size: 22px;
+                font-weight: 700;
+                color: #274C5B;
+                padding: 10px;
+                height: 69px;
+                width: 60%;
+                border-radius: 18px;
+                border: none;
+                background-color: #EFD372;
+                margin-top: 10px;
+                .Icon{
+                    background-color: #274C5B;
+                    color: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    padding: 3px;
+                    font-size: 16px;
+                }
+            }
+            .card_button:hover{
+                background-color: white;
+                border: #EFD372 solid 2px ;
+            }
+        }
+        .hero_card_right{
+            width: 70%;
+            .hero_img{
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+.card_top {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+    .card_top_left {
+        width: 48%;
+        position: relative;
+
+        .card_img {
+            border-radius: 30px;
+        }
+
+        .card_p {
+            font-family: 'Yellowtail';
+            font-size: 36px;
+            color: #ffffff;
+            top: 100px;
+            position: absolute;
+            left: 40px;
+        }
+
+        .card_h1 {
+            font-family: 'Roboto';
+            font-size: 46px;
+            font-weight: 700;
+            color: #ffffff;
+            position: absolute;
+            top: 140px;
+            left: 38px;
+        }
+    }
+
+    .card_top_right {
+        width: 48%;
+        position: relative;
+
+        .card_img {
+            border-radius: 30px;
+        }
+
+        .card_leftp {
+            font-family: 'Yellowtail';
+            font-size: 36px;
+            color: #7EB693;
+            top: 100px;
+            position: absolute;
+            left: 40px;
+        }
+
+        .card_lefth1 {
+            font-family: 'Roboto';
+            font-size: 46px;
+            font-weight: 700;
+            color: #274b5c;
+            position: absolute;
+            top: 140px;
+            left: 38px;
+        }
+    }
+}
+
+.sectionn {
+    background-color: #F9F8F8;
+
+    .card_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .card_botom_left {
+            width: 45%;
+
+            .card_bottomimg {
+                width: 100%;
+            }
+        }
+
+        .card_botom_right {
+            width: 45%;
+
+            .card_rightp {
+                font-family: 'Yellowtail';
+                font-size: 36px;
+                color: #7EB693;
+            }
+
+            .card_righth1 {
+                font-family: 'Roboto';
+                font-size: 46px;
+                font-weight: 700;
+                color: #274b5c;
+                margin-bottom: 10px;
+            }
+
+            .cards_rightsmall {
+                font-family: 'Roboto';
+                font-size: 16px;
+                font-weight: 400;
+                color: #274b5c;
+            }
+            .card_bottom_item{
+                margin-top: 30px;
+                margin-bottom: 20PX;
+                display: flex;
+                align-items: center;
+                .card_bottom_right2{
+                    margin-left: 20px;
+                .card_bottom_strong{
+                    font-family: 'Roboto';
+                    font-size: 26px;
+                    font-weight: 700;
+                    color: #274b5c;
+                    margin-bottom: 10px;
+                    display: block;
+                }
+
+                }
+            }
+            .card_button{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                font-family: 'Roboto';
+                font-size: 22px;
+                font-weight: 700;
+                color: #ffffff;
+                padding: 15px;
+                height: 69px;
+                width: 30%;
+                border-radius: 18px;
+                border: none;
+                background-color: #274C5B;
+                margin-top: 10px;
+                .Icon{
+                    background-color: #335B6B;
+                    color: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    padding: 3px;
+                    font-size: 16px;
+                }
+            }
+            .card_button:hover{
+                background-color: white;
+                border: #274C5B solid 2px ;
+                color: #274C5B;
+            }
+        }
+    }
+}
